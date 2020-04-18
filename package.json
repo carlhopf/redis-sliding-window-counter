@@ -1,0 +1,31 @@
+{
+  "name": "redis-sliding-window-counter",
+  "version": "1.0.1",
+  "description": "Redis sliding window counter",
+  "main": "SlidingWindowCounter.js",
+  "scripts": {
+    "test": "mocha -r esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlhopf/redis-sliding-window-counter.git"
+  },
+  "keywords": [
+    "redis",
+    "sliding",
+    "window",
+    "counter"
+  ],
+  "author": "Carl Hopf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlhopf/redis-sliding-window-counter/issues"
+  },
+  "homepage": "https://github.com/carlhopf/redis-sliding-window-counter#readme",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "ioredis": "^4.16.2",
+    "mocha": "^7.1.1",
+    "nanoid": "^3.1.3"
+  }
+}
