@@ -1,6 +1,6 @@
 {
   "name": "redis-sliding-window-counter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Redis sliding window counter",
   "main": "SlidingWindowCounter.js",
   "scripts": {

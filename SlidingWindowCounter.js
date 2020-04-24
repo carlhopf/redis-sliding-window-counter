@@ -58,3 +58,8 @@ export async function count({ id, iv = INTERVAL_DEFAULT, redis }) {
 
   return count;
 }
+
+export default {
+  increment,
+  count,
+}
